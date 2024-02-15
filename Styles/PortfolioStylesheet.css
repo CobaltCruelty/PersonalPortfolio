@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #2d303e;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.NavBar {
+  background-color: #24252a;
+  color: #f0f0f0;
+  width: 100%;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: sticky;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.Logo {
+  cursor: default;
+  font-family: "League Spartan", sans-serif;
+  font-size: 30px;
+}
+
+.NavLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavLinks a {
+  font-size: 16px;
+  padding: 0px 10px;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.NavLinks a:hover {
+  transition: 0.5s;
+  color: #d896ff;
+}
+
+.PageBanner {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  margin: 10px 0px;
+  justify-content: center;
+  font-weight: 500;
+  font-size: calc(30px + 1vw);
+  color: #f0f0f0;
+}
+
+.Content {
+  width: 100%;
+  padding: 25px;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80dvh;
+  justify-content: center;
+}
+
+.PortfolioSelection {
+  -webkit-box-shadow: 9px 10px 29px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 9px 10px 29px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 9px 10px 29px 0px rgba(0, 0, 0, 0.5);
+  height: calc(15rem + 5vw);
+  width: calc(15rem + 5vw);;
+  position: relative;
+}
+
+
+.PSelectText {
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  
+  font-size: calc(16px + .5vw);;
+  font-weight: 700;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.GamesSectionBG {
+  filter: brightness(50%) blur(2px);
+  background-image: url("../Imgs/GameSectionImg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  aspect-ratio: 1/1;
+}
+
+.ArtSectionBG {
+  filter: brightness(50%) blur(2px);
+  background-image: url("../Imgs/3DSectionImg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  aspect-ratio: 1/1;
+}
+
+.GalleryContent {
+  width: 100%;
+  padding: 25px;
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80dvh;
+  justify-content: center;
+}
+
+.GalleryImgContainer {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 480px;
+  max-height: 270px;
+}
+
+.GalleryContent img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.GalleryContent img:hover {
+  filter: brightness(80%);
+  transition: 0.4s;
+}
+
+.About {
+  width: 100%;
+  padding: 20px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  min-height: 80dvh;
+}
+
+.AboutImg {
+  min-height: 300px;
+  min-width: 200px;
+  max-width: 600px;
+  max-height: 900px;
+  object-fit: cover;
+  flex: 2;
+}
+
+.AboutContent {
+  padding: 0px 20px;
+  color: #f0f0f0;
+  flex: 1;
+}
+
+.AboutContent h2 {
+  font-size: 28px;
+}
+
+.AboutContent p {
+  font-size: 18px;
+}
+
+.Contact {
+  min-height: 350px;
+  min-width: 300px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #24252a;
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 16/9;
+}
+
+.ContactContents {
+  color: #f0f0f0;
+  font-size: calc(1rem + .25vw);
+}
+
+.ContactContents a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.ContactContents a:hover {
+  transition: 0.5s;
+  color: #d896ff;
+}
+
+.AAHBG {
+  filter: brightness(50%) blur(2px);
+  background-image: url("../Imgs/AbaddonBG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.CellsBG {
+  filter: brightness(50%) blur(2px);
+  background-image: url("../Imgs/CellsBG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.GameContent {
+  padding: 2rem;
+  min-height: 80dvh;
+}
+
+.ImageSliderWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: .5rem;
+  min-width: 14rem;
+  max-width: 48rem; 
+}
+
+.ImageSliderWrapper h1 {
+  color: #f0f0f0;
+  font-size: calc(18px + 1vw);
+}
+
+.ImageSliderWrapper h2 {
+  color: #f0f0f0;
+  font-size: calc(12px + 1vw);
+  margin: 1rem 0;
+}
+
+.ImageSliderWrapper p {
+  color: #f0f0f0;
+  font-size: calc(12px + .3vw);
+  margin: 0.5rem 0;
+}
+
+.Slider {
+  display: flex;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 0.5rem;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  aspect-ratio: 16/9;
+}
+
+.Slider img video{
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.Slider-Nav {
+  display: flex;
+  column-gap: 1rem;
+  margin: 0 auto;
+}
+
+.Slider-Nav a {
+  width: 1.5rem;
+  height: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 15%;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.Slider-Nav a:hover {
+  opacity: 1;
+}
+
+.PlayGame {
+  max-width: 32rem;
+  max-height: 18rem;
+  background-color:#24252a;
+  border-radius: .5rem;
+  color: #f0f0f0;
+  font-size: calc(8px + 1vw);
+  padding: 1rem 3rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.PlayGame:hover {
+  transition: 0.5s;
+  color: #d896ff;
+  font-weight: 500;
+}
+
+

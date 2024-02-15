@@ -1,0 +1,8 @@
+- Aubrey: Aubrey's 3D model from the video game OMORI. I textured and 3D modelled the character, then I adjusted the shading to resemble toon shading.
+- Discovery: A group of four people produced this 3D science fiction render. My responsibilities included modeling and texturing the helmet, rigging the character's skeleton, and set up the scene for render.
+- Mech Enemies: A simple sci fi humanoid enemy modeled, textured, and rigged by me.
+- Woodland enemies: A set of low poly enemies with a fantasy woodland theme.  I created these models for my video game project, "Realm Survivors."
+- Excalibur: A simple sword I 3D modelled and textured with bump maps to add more detail.
+- Hero's Greatsword: A fantasy greatsword I modelled and was texture painted by me.
+- Low Poly SCIFI Weapons: A set of low poly with a sci fi theme. These were originally going to be used for another game project but it was scrapped.
+- Woodland map: A simple arena designed with a woodland theme. This map is used for my video game project, "Realm Survivors."

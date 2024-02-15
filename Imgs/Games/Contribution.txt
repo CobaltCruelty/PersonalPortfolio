@@ -1,0 +1,7 @@
+Abaddon All Hope:
+-Notes
+Abaddon All Hope is a game developed for our group's thesis. My contribution to the development were I scripted the entire game with the use of the assets provided by my team.
+
+Cells TD:
+-Notes
+Ce
